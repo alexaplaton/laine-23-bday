@@ -18,10 +18,6 @@ export default function Home() {
           flexWrap: "nowrap",
           flexDirection: "column",
           alignItems: "center",
-          marginTop: {
-            xs: "10vh",
-            md: "0",
-          },
         }}
     >
 
