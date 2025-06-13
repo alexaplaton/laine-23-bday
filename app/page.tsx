@@ -18,9 +18,26 @@ export default function Home() {
           flexWrap: "nowrap",
           flexDirection: "column",
           alignItems: "center",
-          marginTop: "30vh"
+          marginTop: {
+            xs: "10vh",
+            md: "0",
+          },
         }}
     >
+
+      {/* Icon box */}
+      <Box
+        component="img"
+        src="icon.png"
+        alt="Normal smiski"
+        sx={{
+          width: {
+            xs: "80vw",
+            md: "30vw",
+          },
+          display: "block",
+        }}
+      />
 
       {/* Inner box for header */}
       <Box>
